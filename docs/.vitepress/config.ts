@@ -6,6 +6,10 @@ export default defineConfig({
   description: "更新记录",
   lastUpdated: true,
   themeConfig: {
+    nav: [
+      { text: '首页', link: '/' },
+      { text: 'GM命令', link: '/gm-commands' }
+    ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/swcore' }
     ]
